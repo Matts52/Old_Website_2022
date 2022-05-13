@@ -5,7 +5,7 @@
   <a @click="openURL('projects')">Projects</a>
   <!--<a href="#Experience">Experience</a>-->
   <a @click="openURL('contact-me')">Contact</a>
-   <a href="/Resume_Matthew_Senick.pdf">Resume</a>
+   <a href="/Portfolio_Site/Resume_Matthew_Senick.pdf">Resume</a>
 </div>
 </template>
 

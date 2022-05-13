@@ -28,7 +28,7 @@ export default [
       },
       image: 'Bearish_or_Bullish.jpg',
       article:
-        "/Bearish_or_Bullish.pdf",
+        "/Portfolio_Site/Bearish_or_Bullish.pdf",
       favorite: "Favorites",
     },
   },
