@@ -5,7 +5,7 @@
   <a @click="openURL('projects')">Projects</a>
   <!--<a href="#Experience">Experience</a>-->
   <a @click="openURL('contact-me')">Contact</a>
-   <!--<a :href="pdf" download>Resume</a>-->
+   <a :href="pdf" download>Resume</a>
 </div>
 </template>
 
@@ -13,11 +13,11 @@
 export default {
   name: "NavBar_Expand",
 
-  //data() {
-  //  return {
-  //    pdf: require("../assets/Resume_Matthew_Senick.pdf"),
-  //  };
-  //},
+  data() {
+    return {
+      pdf: require("../assets/Resume_Matthew_Senick.pdf"),
+    };
+  },
 
   methods: {
     openURL(url) {
