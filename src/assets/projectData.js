@@ -19,7 +19,7 @@ export default [
     Bearish_or_Bullish: {
       category: "Papers",
       content:
-        "An exploratory analysis of the predictive capacity of Wall Street Journal language attention and sentiment on \
+        "An exploratory analysis of the predictive capacity contained within Wall Street Journal language attention and sentiment on \
         key market fluctuation indicators. This paper first scraped a vast database of WSJ articles, then built an LDA model \
         to model language used in the article and sentiment transformers to weigh relative attention of topics. Finally \
         a Lasso regression was used to optimize the bias-variance tradeoff.",
@@ -28,7 +28,7 @@ export default [
       },
       image: 'Bearish_or_Bullish.jpg',
       article:
-        "/Portfolio_Site/Bearish_or_Bullish.pdf",
+        "/Bearish_or_Bullish.pdf",
       favorite: "Favorites",
     },
   },
