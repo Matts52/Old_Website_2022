@@ -3,7 +3,7 @@
   <a class="active" href=""><img id="logo" src="../assets/logo.svg"></a>
   <a @click="openURL('me')">About</a>
   <a @click="openURL('projects')">Projects</a>
-  <a href="#Experience">Experience</a>
+  <!--<a href="#Experience">Experience</a>-->
   <a @click="openURL('contact-me')">Contact</a>
    <!--<a :href="pdf" download>Resume</a>-->
 </div>
