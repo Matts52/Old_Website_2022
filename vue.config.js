@@ -7,7 +7,7 @@ module.exports = {
       .loader("file-loader");
   },
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Personal_Site/'
+    ? '/'
     : '/',
   filenameHashing: false
 };
