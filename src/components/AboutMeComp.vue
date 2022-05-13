@@ -56,12 +56,7 @@
 
 <script>
 export default {
-  name: "DescriptionAbout",
-  data() {
-    return {
-      pdf: require("../assets/Resume_Matthew_Senick.pdf"),
-    };
-  }
+  name: "DescriptionAbout"
 };
 </script>
 

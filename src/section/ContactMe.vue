@@ -4,18 +4,21 @@
     <div class="find-me-container">
       <div class="icons">
         <FindMeIcons
+          style="margin-bottom: 2em;"
           class="email"
           title="email"
           content="senick.matthew@gmail.com"
         />
         
         <FindMeIcons
+          style="margin-bottom: 2em;"
           title="github"
           content="Matts52"
           link="https://github.com/Matts52"
         />
 
         <FindMeIcons
+          style="margin-bottom: 2em;"
           title="linkedin"
           content="Matthew Senick"
           link="https://www.linkedin.com/in/matthew-senick/"
@@ -39,13 +42,12 @@ export default {
 
 <style scoped>
 .main-container {
-  padding-bottom: 20em;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
+  justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("../assets/pattern/street.jpg");
-  background-size: 100%;
-
+  background-size: cover;
 }
 h1 {
   margin-top: 1em;
@@ -61,23 +63,22 @@ img {
   margin-top: 3em;
   width: 80vw;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 1.5em;
 }
 .icons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 2em;
+  padding-bottom: 5em;
 }
 @media (max-width: 700px) {
   img {
     margin-bottom: 2em;
   }
   .icons {
-    display: grid;
-    grid-template-columns: 1fr;
     gap: 1.2em;
+    padding-bottom: 2em;
   }
 
 }

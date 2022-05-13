@@ -2,7 +2,7 @@
   <div class="find-me-icons-main-container" @click="openLink">
     <div class="find-me-icons-header">
       <img :src="require(`../assets/icons/${title}-white.svg`)" :alt="title" />
-      <div class="horizontal-divider"></div>
+      <!--<div class="horizontal-divider"></div>-->
       <strong class="light"> {{ title }} </strong>
     </div>
     <p class="light">{{ content }}</p>
