@@ -4,18 +4,18 @@
     <p>
       I am a recent Masters of Economics graduate from the University of Toronto. My interests mainly fall within
       the fields of data science, technology consulting, and applications of machine learning to econometrics. Prior
-      to my Masters I completed a Double Major in Computer Science and Economics from the University of Saskatchewan
+      to my Masters I completed a Double Major in Computer Science and Economics at the University of Saskatchewan
       with High Honours in both subjects. 
     </p>
     <p>
-        Alongside my education, I have been able to gain experience in a few different industries. Namely, I have 
-        worked on building data pipelines and automated reports within Business Intelligence, analyzed consumer behaviour
-        tendencies as a Market Analyst, researched applications of machine learning to labour market amenity preference and 
-        semantic code clone detection as a Research Assistant, and taught data manipulation and analysis techniques as 
+        Alongside my education, I have gained experience in a few different industries. Namely, I have 
+        worked on building data pipelines and automated reports, analyzed consumer behaviour
+        tendencies, researched applications of machine learning to labour market amenity preference as well as 
+        semantic code clone detection, and taught data manipulation and analysis techniques as 
         a Teaching Assistant.
     </p>
     <p>
-      In my free time I enjoy keeping up interesting applications of new
+      In my free time I enjoy keeping up with interesting applications of new
       technology. Currently I am looking into advancements in Natural Language Processing and
       Data Visualization.
     </p>
@@ -39,18 +39,6 @@
         <img src="../assets/icons/java.svg" alt="Java" />
       </li>
     </ul>
-    <!--
-    <ul>
-      <li>
-        <img src="../assets/icons/vue.svg" alt="vuejs" />
-      </li>
-      <li>
-        <a :href="pdf" download>
-          <button>Resume</button>
-        </a>
-      </li>
-    </ul>
-    -->
   </article>
 </template>
 

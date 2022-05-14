@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <h1>Contact Me</h1>
+    <h1>Find Me</h1>
     <div class="find-me-container">
       <div class="icons">
         <FindMeIcons
