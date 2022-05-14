@@ -49,7 +49,7 @@ export default [
       },
       image: 'Money_is_Motivation.jpg',
       article:
-        "/Money_is_motivation.pdf",
+        "/Money_is_Motivation.pdf",
       favorite: "Favorites",
     },
   },
