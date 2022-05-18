@@ -4,10 +4,11 @@ export default [
     Bearish_or_Bullish: {
       category: "Papers",
       content:
-        "An exploratory analysis of the predictive capacity contained within Wall Street Journal language attention and sentiment on \
+        "An exploratory analysis of the predictive capacity of Wall Street Journal language attention and sentiment on \
         key market fluctuation indicators. This paper first scraped a vast database of WSJ articles, then built an LDA model \
-        to model language used in the article and the RoBERTa sentiment transformer to weigh relative attention of topics. Finally \
-        a Lasso regression was used to optimize the bias-variance tradeoff.",
+        for the language used, while using the RoBERTa sentiment transformer to weigh directional attention of topics. Finally \
+        a Lasso regression was applied to optimize the bias-variance tradeoff with respect to how many topics to include when \
+        predicting movement of market fluctuation indicators.",
       preview_links: {
         github: "https://github.com/Matts52/Bearish-or-Bullish",
       },
