@@ -11,8 +11,7 @@
         Alongside my education, I have gained experience in a few different industries. Namely, I have 
         worked on building data pipelines and automated reports, analyzed consumer behaviour
         tendencies, researched applications of machine learning to labour market amenity preference as well as 
-        semantic code clone detection, and taught data manipulation and analysis techniques as 
-        a Teaching Assistant.
+        semantic code clone detection, and taught data manipulation and analysis techniques.
     </p>
     <p>
       In my free time I enjoy keeping up with interesting applications of new
